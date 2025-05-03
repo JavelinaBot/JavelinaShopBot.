@@ -40,7 +40,7 @@ async def handle_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return CHOOSING
     else:
         await update.message.reply_text("Дякуємо за відповіді! Ось товари, які можуть вам сподобатись:")
-        await update.message.reply_text("1. Вібратор A | 799 грн
+        await update.message.reply_text("1. Вібратор A | 799 грн")
 2. Масажер B | 599 грн
 3. Набір для пар C | 999 грн
 (Це приклад. Реальні товари можна підтягнути з CSV.)")
